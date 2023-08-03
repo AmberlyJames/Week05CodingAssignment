@@ -1,0 +1,20 @@
+package week05CodingProject;
+
+public class App {
+
+	public static void main(String[] args) {
+	
+	//	Logger astLogger = new AsteriskLogger();
+		
+	//	astLogger.log("Everything is fine");
+		
+	//	astLogger.error("Doo-Hickie broken!");
+
+		Logger spacedLogger = new SpacedLogger();
+		
+		spacedLogger.log("Spaces should appear between the characters");
+		
+		
+	}
+
+}

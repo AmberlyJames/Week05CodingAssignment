@@ -1,0 +1,13 @@
+package week05CodingProject;
+
+public class App {
+
+	public static void main(String[] args) {
+	
+		Logger logger = new AsteriskLogger();
+		logger.log("Everything is fine...");
+		logger.error("Doo-Hickie broken!");
+
+	}
+
+}

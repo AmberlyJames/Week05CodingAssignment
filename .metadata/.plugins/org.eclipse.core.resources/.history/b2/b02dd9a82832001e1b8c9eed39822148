@@ -1,0 +1,28 @@
+package week05CodingProject;
+
+public class App {
+
+	public static void main(String[] args) {
+	
+		Logger astLogger = new AsteriskLogger();
+		
+		astLogger.log("Everything is fine");
+		
+		System.out.println("\n");
+		
+		
+		astLogger.error("There's definitely a broken thingy!");
+				
+		
+		
+
+		Logger spacedLogger = new SpacedLogger();
+		
+		spacedLogger.log("Spaces should appear between the characters");
+		
+		System.out.println("\n");
+		
+		spacedLogger.error("Spaces DO appear between the characters!!!");
+	}
+
+}
